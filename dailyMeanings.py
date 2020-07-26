@@ -6,7 +6,7 @@ def getMeaning(word):
     owlbot_api = "https://owlbot.info/api/v4/dictionary/" + word
     response = requests.get(
         owlbot_api,
-        headers={'Authorization': 'Token ab05e266506165646dda78812726dbc0aa730acc'},
+        headers={'Authorization': 'Token <token>'},
     )
     json_response = response.json()
     return json_response
