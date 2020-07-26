@@ -52,7 +52,7 @@ class BotHandler:
 
 
 
-token = '1263401899:AAHBGl0tNG_LoiksP0NO_l2BfJmBuQSHlBY' #Token of your bot
+token = '<token>' #Token of your bot
 dailyMeanings_bot = BotHandler(token) #Your bot's name
 
 
